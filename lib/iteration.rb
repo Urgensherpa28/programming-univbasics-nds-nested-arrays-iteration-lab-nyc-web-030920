@@ -49,7 +49,6 @@ def total_even_pairs(src)
      if outer[0] % 2 == 0 && outer[1] % 2 == 0 
        total = [outer[0] + outer[1]]
      end
-   end
  end
  total
 end
