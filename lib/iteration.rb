@@ -45,14 +45,12 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  total = 0
  src.each do |outer|
    outer.each do |inner|
      if inner % 2 == 0 
        total = inner[0] + inner[1]
      end
    end
-   total += 1 
  end
  total
 end
