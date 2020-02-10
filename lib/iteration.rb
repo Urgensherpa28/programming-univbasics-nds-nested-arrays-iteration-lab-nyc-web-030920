@@ -48,7 +48,7 @@ def total_even_pairs(src)
  src.each do |outer|
    outer.each do |inner|
      if inner % 2 == 0 
-       total += inner[0] + inner[1]
+       total += (inner[0] + inner[1])
      end
    end
  end
